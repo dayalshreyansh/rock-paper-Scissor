@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+    <main>
+        <div><h1 id="heading">Rock Paper And Scissors</h1></div>
+        <div id="rules">
+            <button id="rules-button">RULES: Rock Paper And Scissors</button>
+            <div id="rules-block" class="hide"><h3>Hand signals:</h3>
+                <p>
+                    Players use hand signals to represent rock, paper, or scissors:<br>
+                    Rock: A closed fist <br>
+                    Paper: A flat hand with fingers and thumb extended, palm facing down <br>
+                    Scissors: A fist with index and middle fingers fully extended <br>
+                </p>
+                <h3>Winning</h3>
+                <p>
+                    The first player to score 3 or more points wins.
+                </p>
+                <h3>Beating</h3>
+                <p>
+                    Rock beats scissors, scissors beats paper, and paper beats rock. If both players throw the same hand signal, it's a tie.
+            </div>
+        </div>
+        <div id="choose-move">
+            <h2>Choose One</h2>
+            <div id="game-elements">
+                <button id="rock" value="rock"><img src="428-4288843_rock-png-removebg-preview.png" alt="Rock"></button>
+                <button id="paper" value="paper"><img src="428-4288843_paper-png-removebg-preview.png" alt="Paper"></button>
+                <button id="scissors" value="scissors"><img src="428-4288843_scissors-png-removebg-preview.png" alt="Scissors"></button>
+            </div>
+            <div id="scores">
+                <span><h2>Player Score: <span id="player-score">0</h2></span></span>
+                <span><h2>Computer Score: <span id="computer-score">0</h2></span></span>
+            </div>
+        </div>
+        <div id="output">
+                
+        </div>
+        <button id="play-again" class="hide">
+            Play Again
+        </button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

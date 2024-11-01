@@ -1,0 +1,53 @@
+body{
+    background-color:#271b2c;
+}
+#heading{
+    color:#e1ad01;
+    text-align: center;
+}
+#choose-move h2{
+    color: #ffefcb;
+    text-align: center;
+}
+#rules-button{
+    display: block;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    background-color:#ffefcb;
+}
+#rules-block{
+    font-size: 13px;
+    margin: auto;
+    background-color: #ffefcb;
+    width: 380px;
+    border-radius: 0 0 10px 10px;
+    padding: 5px;
+}
+.hide{
+    display:none;
+}
+.block{
+    display:block;
+}
+#game-elements{
+    margin: auto;
+    width:70vw;
+    display: flex;
+    justify-content: space-between;
+}
+#scores{
+    margin: auto;
+    display: flex;
+    width:70vw;
+    justify-content: space-between;
+}
+#output p{
+    text-align: center;
+    color: #e1ad01;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#play-again{
+    margin: auto;
+}
